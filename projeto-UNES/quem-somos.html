@@ -3,11 +3,11 @@
 
     <head>
         <meta charset="utf-8">
-        <title>UNES - Página Principal</title>
+        <title>UNES - Quem somos</title>
 
         <style>
 
-            #home {
+            #quem-somos {
 
                 display: flex;
                 flex-direction: column;
@@ -29,12 +29,7 @@
                 text-align: right;
             }
 
-            #capa {
-
-                margin-top: 5px;
-            }
-
-            #sobre {
+            .conteudo {
 
                 width: 50%;
             }
@@ -44,7 +39,7 @@
 
     <body style="background-image: url(imagens/fundo2.png);">
 
-        <div id="home">
+        <div id="quem-somos">
 
             <div id="cabecalho">
                 <!--logo-->
@@ -53,19 +48,39 @@
                 <!--menu-->
                 <table id="menu">
                     <tr>
-                        <td><a href="#">Home | </a></td>
-                        <td><a href="quem-somos.html">Quem somos | </a></td>
+                        <td><a href="index.html">Home | </a></td>
+                        <td><a href="#">Quem somos | </a></td>
                         <td><a href="contato.html">Contato</a></td>
                     </tr>
                 </table>
             </div>
 
-            <div id="capa">
-                <img src="imagens/capa.png">
+            <div class="conteudo">
+                <h1>Quem somos</h1>
+                <p><strong>ipsum dolor</strong> sit amet, consectetur adipiscing elit. 
+                    Cras nec egestas leo. Praesent bibendum, eros id finibus dictum, 
+                    dui nisi commodo nisl, non bibendum sem dolor vestibulum lacus. 
+                    Cras et tempor lacus. Donec egestas turpis mattis, vulputate quam in, 
+                    viverra ante. Sed interdum vehicula purus eu laoreet. 
+                    Fusce finibus mollis elit, et tristique velit tempor vitae. 
+                    Phasellus tortor elit, ultrices id purus in, scelerisque dictum dui. 
+                    Etiam a dictum leo, nec lobortis augue. Sed eget augue non urna facilisis 
+                    vestibulum id et ex. Aenean quam metus, maximus id purus at, 
+                    aliquam ultricies arcu. </p>
+
+                <h1>5 motivos para estudar</h1>
+                <ol>
+                    <li>Material sempre atualizado</li>
+                    <li>Tablets em sala de aula</li>
+                    <li>Professores renomados</li>
+                    <li>Universidade bem avaliada</li>
+                    <li>Ótima localização</li>
+                </ol>
+                <hr>
             </div>
 
-            <div id="sobre">
-                <h1>Sobre a universidade</h1>
+            <div class="conteudo">
+                <h1>Objetivos</h1>
                 <p><strong>ipsum dolor</strong> sit amet, consectetur adipiscing elit. 
                     Cras nec egestas leo. Praesent bibendum, eros id finibus dictum, 
                     dui nisi commodo nisl, non bibendum sem dolor vestibulum lacus. 

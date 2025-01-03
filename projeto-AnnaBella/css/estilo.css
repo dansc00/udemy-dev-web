@@ -1,0 +1,72 @@
+body {
+
+    background-image: url("../imagens/fundo.png");
+}
+
+#capa img {
+
+    width: 65%;
+}
+
+/* menu */
+#menu {
+
+    background-color: #cbc1a5;
+    width: 65%;
+}
+
+#menu ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 10px 10px 10px;
+}
+
+#menu li {
+
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#menu a {
+
+    color: #0d4788;
+    text-decoration: none;
+}
+
+/* seção principal */
+#secao-principal {
+
+    background-color: #eae7de;
+    width: 65%;
+    
+}
+
+#secao-principal h1{
+
+    margin: 0;
+    padding: 10px 10px 10px 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #ada281;
+}
+
+#secao-principal p{
+
+    margin: 0;
+    padding: 10px 10px 10px 10px;
+    font-family: sans-serif;
+}
+
+/* direitos */
+#direitos h2{
+
+    margin-left: 50%;
+    font-size: 16px;
+
+}
